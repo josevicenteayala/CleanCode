@@ -18,7 +18,7 @@ class SwitchFunctionTest {
 			e.printStackTrace();
 		}
 		long milliseconds2 = System.currentTimeMillis();
-		System.out.println(milliseconds2 - milliseconds1);
+		System.out.println("Milliseconds "+ (milliseconds2 - milliseconds1));
 	}
 
 	@Test
