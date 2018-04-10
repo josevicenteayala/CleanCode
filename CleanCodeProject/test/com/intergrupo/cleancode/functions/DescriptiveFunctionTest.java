@@ -9,7 +9,7 @@ class DescriptiveFunctionTest {
 	@Test
 	void testShowTheMostBiggerNumberInTheList() {
 		DescriptiveFunction descriptiveFunction = new DescriptiveFunction();
-		assertTrue("The most bigger number should be 2000 ",descriptiveFunction.getTheMostBiggerNumberInTheList() == 2000);
+		assertTrue("The most bigger number should be 2000 ",descriptiveFunction.getTheMostBiggerNumberInTheList() == 2001);
 	}
 
 }

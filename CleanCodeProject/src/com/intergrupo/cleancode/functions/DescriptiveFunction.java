@@ -2,7 +2,7 @@ package com.intergrupo.cleancode.functions;
 
 public class DescriptiveFunction {
 	
-	double numericList[] = new double[] {1,890.45,3,89.05,66,2000}; 
+	double numericList[] = new double[] {2001,50,1,890.45,3,89.05,66,2000}; 
 
 	public double getTheMostBiggerNumberInTheList() {
 		for (int i = 0; i < numericList.length; i++) {
